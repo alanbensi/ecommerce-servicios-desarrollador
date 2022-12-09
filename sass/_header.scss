@@ -1,0 +1,16 @@
+header {
+    background-color: $colorFondo;
+    nav {
+        .listaDesordenada {
+            display: flex;
+            justify-content: space-evenly;
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+header {
+  background-color: red;
+}
+header nav .listaDesordenada {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav .listaDesordenada li {
+  list-style: none;
+}
+header nav .listaDesordenada li a {
+  text-decoration: none;
+  color: white;
+}
+
+main section .indexH1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  color: blue;
+  text-decoration: underline;
+}
+main section h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+main section div div {
+  margin: 3rem;
+}
+main section div div .correcto {
+  font-size: 20px;
+  background-color: green;
+  border-radius: 10px;
+  padding: 1rem;
+}
+main section div div .error {
+  font-size: 20px;
+  background-color: red;
+  border-radius: 10px;
+  padding: 1rem;
+}
+main section div div .alerta {
+  font-size: 20px;
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=base.css.map */

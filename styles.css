@@ -7,7 +7,11 @@ sans-serif; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Montserrat', sans-serif;
+}
+
+.menuNavegacion {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .logo {
@@ -26,10 +30,35 @@ h1 {
     font-size: 30px;
 }
 
+.cardCodigo {
+    width: 15rem;
+}
+
 .footerIndex {
     background-color: aqua;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    body {
+        background-color: aqua;
+    }
+    .menuNavegacion {
+        flex-direction: column;
+    }
+    #htmlLista {
+        font-size: 20px;
+    }
+    .cardCodigo {
+        margin: 0;
+    }
+}
 
 
-
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+    body {
+        background-color: coral;
+    }
+    #htmlLista {
+        font-size: 60px;
+    }
+}
