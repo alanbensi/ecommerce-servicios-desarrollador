@@ -11,44 +11,38 @@
     <link rel="stylesheet" href="./base.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class=" listaDesordenada">
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./quienes-somos.html">Quienes somos?</a>
-                </li>
-                <li>
-                    <a href="./portfolio.html">Portfolio de trabajos</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-        <div>
-            <img class="logo" src="./imagenes/logo.jpg" alt="Logo">
-        </div>
-    </header>
-    <!-- <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled">Disabled</a>
+    <header>       
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img class="navbar-brand logo" src="./imagenes/logo.jpg" alt="Logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler menuHamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <iconify-icon icon="charm:menu-hamburger"></iconify-icon>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="linksNav" aria-current="page" href="#">Quienes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="linksNav" href="#">Nuestros servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="linksNav" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item carrito">
+                            <iconify-icon icon="ic:baseline-add-shopping-cart"></iconify-icon>
+                            <p>5</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </nav> -->
+        </nav>
+    </header>
     <main>
         <section>
             <h1 class="indexH1">Desarrollador profesional frontEnd</h1>
@@ -112,6 +106,43 @@
                 </button>
             </div>
         </section>
+        <section>
+            <h2>Querés una cotización? Consultanos!</h2>
+            <form>
+                <label for="">Nombre</label>
+                <input type="text" name="" id="">
+                <label for="">Apellido</label>
+                <input type="text" name="" id="" required>
+                <label for="">Edad</label>
+                <input type="number" name="" id="">
+                <input type="email" name="" id="" placeholder="Agrega tu email">
+                <input type="password" name="" placeholder="Ingresa la contraseña" id="">
+                <div>
+                    <h2>Que servicio deseas? </h2>
+                    <label for="">Servicio 1</label>
+                    <input type="radio" name="Servicio" id="">
+                    <label for="">Servicio 2</label>
+                    <input type="radio" name="Servicio" id="">
+                    <label for="">Servicio 3</label>
+                    <input type="radio" name="Servicio" id="">
+                </div>
+                <div>
+                    <h3>Pagos de preferencia</h3>
+                    <label for="">Transferencia</label>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Efectivo</label>
+                    <input type="checkbox" name="" id="">
+                </div>
+                <div>
+                    <select name="" id="">
+                        <option value="Servicio 1">Servicio 1</option>
+                        <option value="Servicio 2">Servicio 2</option>
+                        <option value="Servicio 3">Servicio 3</option>
+                    </select>
+                </div>
+                <input type="submit" value="Enviar consulta">
+            </form>
+        </section>
         <aside>
             <img src="abc" alt="Logo de whatsapp">
         </aside>
@@ -121,5 +152,7 @@
     </footer>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/claseFunciones.js"></script>
 </body>
 </html>

@@ -1,14 +1,46 @@
 header {
-    background-color: $colorFondo;
     nav {
-        .listaDesordenada {
-            display: flex;
-            justify-content: space-evenly;
-            li {
-                list-style: none;
-                a {
-                    text-decoration: none;
-                    color: white;
+        div {
+            div {
+                margin: 1rem;
+                .logo {
+                    width: 6rem;
+                    border-radius: 100%;
+                }
+            }
+            .menuHamburguesa {
+                color: $colorBlanco;
+                iconify-icon {
+                    font-size: 22px;
+                    color: $colorBlanco;
+                }
+            }
+            div{ 
+                ul {
+                    justify-content: space-evenly;
+                    width: 100%;
+                    li {
+                        .linksNav {
+                            color: $colorBlanco;
+                            text-decoration: none;
+                        }
+                        iconify-icon {
+                            font-size: 25px;
+                            margin-right: 5px;
+                        }
+                    } 
+                    .carrito {
+                        display: flex;
+                        p{
+                            background-color: #22965c;
+                            border-radius: 100%;
+                            width: 23px;
+                            height: 23px;
+                            text-align: center;
+                            font-size: 18px;
+                            font-weight: 450;
+                        }
+                    }
                 }
             }
         }
