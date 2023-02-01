@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desarrollador web Front-end</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./base.css">
 </head>
@@ -34,9 +34,8 @@
                         <li class="nav-item">
                             <a class="linksNav" href="#">Contacto</a>
                         </li>
-                        <li class="nav-item carrito">
+                        <li class="nav-item carrito" id="pruebaNav">
                             <iconify-icon icon="ic:baseline-add-shopping-cart"></iconify-icon>
-                            <p>5</p>
                         </li>
                     </ul>
                 </div>
@@ -44,20 +43,19 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1 class="indexH1">Desarrollador profesional frontEnd</h1>
-            <img src="./imagenes/programador-trabajando.jpg" alt="Programador trabajando a oscuras">
-            <p>Tengo conocimientos en html, css, javascript. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem illum soluta vero cupiditate, alias accusamus temporibus officiis nostrum praesentium deleniti expedita blanditiis, similique atque repellendus voluptatum ipsum commodi eos et!</p>
+        <section class="contenedorGeneralBienvenida">
+            <div class="contenedorImgTitulo">
+                <div class="contenedorImgBienvenida">
+                    <img src="./imagenes/programador-trabajando.jpg" alt="Programador trabajando a oscuras">
+                </div>
+                <h1 class="tituloBienvenida">Desarrollador profesional frontEnd</h1>    
+            </div>
         </section>
-        <section>
-            <h2>Conocimientos sobre programación</h2>
-            <ol>
-                <li id="htmlLista">Html</li>
-                <li>CSS</li>
-                <li>javascript</li>
-            </ol>
-        </section>
-        <section>
+        <section id="contenedorProductos"></section>
+
+        
+
+        <!-- <section>
             <div class="card cardCodigo">
                 <img src="./imagenes/codigo.jpg" class="card-img-top" alt="Codigo de programacion">
                 <div class="card-body">
@@ -67,8 +65,8 @@
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-        </section>
-        <section>
+        </section> -->
+        <!-- <section>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -105,8 +103,8 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </section>
-        <section>
+        </section> -->
+        <!-- <section>
             <h2>Querés una cotización? Consultanos!</h2>
             <form>
                 <label for="">Nombre</label>
@@ -146,13 +144,12 @@
         <aside>
             <img src="abc" alt="Logo de whatsapp">
         </aside>
-    </main>
+    </main> -->
     <footer class="footerIndex">
         <iconify-icon icon="uil:instagram-alt"></iconify-icon>
     </footer>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="./scripts/index.js"></script>
-    <script src="./scripts/claseFunciones.js"></script>
 </body>
 </html>

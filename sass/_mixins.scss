@@ -4,3 +4,12 @@
     border-radius: 10px;
     padding: 1rem;
 }
+
+@mixin posicionBienvenida ($altura, $tamanoLetra, $color) {
+    position: absolute;
+    top: $altura;
+    color: $color;
+    text-align: center;
+    width: 100%;
+    font-size: $tamanoLetra;
+}

@@ -3,8 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  background-color: #382148;
   color: #FEFEFE;
+}
+
+body {
+  background-color: #382148;
 }
 
 header nav div div {
@@ -36,11 +39,11 @@ header nav div div ul li iconify-icon {
 header nav div div ul .carrito {
   display: flex;
 }
-header nav div div ul .carrito p {
+header nav div div ul .carrito .productosEnCarrito {
   background-color: #22965c;
   border-radius: 100%;
-  width: 23px;
-  height: 23px;
+  width: 24px;
+  height: 24px;
   text-align: center;
   font-size: 18px;
   font-weight: 450;
@@ -75,6 +78,36 @@ main section div div .alerta {
   background-color: yellow;
   border-radius: 10px;
   padding: 1rem;
+}
+
+main .contenedorGeneralBienvenida {
+  height: 80vh;
+  margin-bottom: 12rem;
+}
+main .contenedorGeneralBienvenida .contenedorImgTitulo {
+  position: relative;
+}
+main .contenedorGeneralBienvenida .contenedorImgTitulo .contenedorImgBienvenida {
+  opacity: 0.1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+main .contenedorGeneralBienvenida .contenedorImgTitulo .contenedorImgBienvenida img {
+  width: 60%;
+}
+main .contenedorGeneralBienvenida .contenedorImgTitulo .tituloBienvenida {
+  position: absolute;
+  top: 50%;
+  color: #5CDA9B;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+}
+main .contenedorGeneralBienvenida .contenedorImgTitulo .tituloBienvenida span {
+  display: block;
+  font-size: 80px;
 }
 
 /*# sourceMappingURL=base.css.map */

@@ -1,0 +1,26 @@
+main {
+    .contenedorGeneralBienvenida {
+        height: 80vh;
+        margin-bottom: 12rem;
+        .contenedorImgTitulo {
+            position: relative;
+            .contenedorImgBienvenida {
+                opacity: 0.1;
+                width: 100%;
+                display: flex;
+                justify-content:center;
+                margin: 0;
+                img {
+                    width: 60%;
+                }
+            }
+            .tituloBienvenida {
+                @include posicionBienvenida (50%, 25px, $colorVerde);
+                span {
+                    display: block;
+                    font-size: 80px;
+                }
+            }
+        }
+    }
+}

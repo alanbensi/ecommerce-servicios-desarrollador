@@ -4,8 +4,14 @@
 sans-serif; */
 
 
+.prueba {
+    background-color: green;
+}
 
 
+.logo {
+    width: 6rem;
+}
 
 .cardCodigo {
     width: 15rem;
