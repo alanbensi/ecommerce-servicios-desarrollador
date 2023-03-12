@@ -15,7 +15,6 @@ main {
     section {
         div{
             div{
-                margin: 3rem;
                 .correcto {
                     @include botonesCarrito (green);
                 }

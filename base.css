@@ -10,6 +10,10 @@ body {
   background-color: #382148;
 }
 
+header {
+  position: sticky;
+  top: 0;
+}
 header nav div div {
   margin: 1rem;
 }
@@ -45,7 +49,7 @@ header nav div div ul .carrito .productosEnCarrito {
   width: 24px;
   height: 24px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 450;
 }
 
@@ -57,9 +61,6 @@ main section .indexH1 {
 }
 main section h2 {
   font-family: "Montserrat", sans-serif;
-}
-main section div div {
-  margin: 3rem;
 }
 main section div div .correcto {
   font-size: 20px;
@@ -82,7 +83,7 @@ main section div div .alerta {
 
 main .contenedorGeneralBienvenida {
   height: 80vh;
-  margin-bottom: 12rem;
+  margin-bottom: 6rem;
 }
 main .contenedorGeneralBienvenida .contenedorImgTitulo {
   position: relative;
@@ -95,7 +96,9 @@ main .contenedorGeneralBienvenida .contenedorImgTitulo .contenedorImgBienvenida 
   margin: 0;
 }
 main .contenedorGeneralBienvenida .contenedorImgTitulo .contenedorImgBienvenida img {
-  width: 60%;
+  width: 80%;
+  height: 600px;
+  object-fit: cover;
 }
 main .contenedorGeneralBienvenida .contenedorImgTitulo .tituloBienvenida {
   position: absolute;
@@ -108,6 +111,56 @@ main .contenedorGeneralBienvenida .contenedorImgTitulo .tituloBienvenida {
 main .contenedorGeneralBienvenida .contenedorImgTitulo .tituloBienvenida span {
   display: block;
   font-size: 80px;
+}
+
+main .tituloNuestrosServicios {
+  color: #FEFEFE;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+main .contenedorProductos {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 0 5rem;
+  margin-bottom: 2rem;
+}
+main .contenedorProductos .cardServicios {
+  width: 20rem;
+  border-color: #5CDA9B;
+  min-height: 400px;
+}
+main .contenedorProductos .cardServicios .imgServicios {
+  height: 200px;
+  object-fit: cover;
+}
+main .contenedorProductos .cardServicios .cuerpoCard {
+  background-color: #382148;
+}
+main .contenedorProductos .cardServicios .cuerpoCard .tituloServicio, main .contenedorProductos .cardServicios .cuerpoCard .precioServicio {
+  color: #FEFEFE;
+  font-size: 16px;
+}
+main .contenedorProductos .cardServicios .cuerpoCard .precioServicio {
+  font-size: 15px;
+  margin: 1.5rem 0;
+}
+main .contenedorProductos .cardServicios .cuerpoCard .contenedorBotonCarrito {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+main .contenedorProductos .cardServicios .cuerpoCard .contenedorBotonCarrito .btnAgregarCarrito {
+  position: absolute;
+  bottom: 20px;
+  background-color: #3E8AF7;
+  color: #FEFEFE;
+  margin: 0 auto;
+}
+main .contenedorProductos .cardServicios .cuerpoCard .contenedorBotonCarrito .btnAgregarCarrito:hover {
+  background-color: #2c4b4d;
 }
 
 /*# sourceMappingURL=base.css.map */

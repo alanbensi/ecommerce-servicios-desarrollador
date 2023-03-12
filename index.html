@@ -34,8 +34,11 @@
                         <li class="nav-item">
                             <a class="linksNav" href="#">Contacto</a>
                         </li>
-                        <li class="nav-item carrito" id="pruebaNav">
-                            <iconify-icon icon="ic:baseline-add-shopping-cart"></iconify-icon>
+                        <li class="nav-item carrito" id="contenedorIconoCarrito">
+                            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                aria-controls="offcanvasRight">
+                                <iconify-icon icon="ic:baseline-add-shopping-cart"></iconify-icon>
+                            </button>
                         </li>
                     </ul>
                 </div>
@@ -48,10 +51,24 @@
                 <div class="contenedorImgBienvenida">
                     <img src="./imagenes/programador-trabajando.jpg" alt="Programador trabajando a oscuras">
                 </div>
-                <h1 class="tituloBienvenida">Desarrollador profesional frontEnd</h1>    
+                <h1 class="tituloBienvenida">Desarrolladores profesionales frontEnd</h1>    
             </div>
         </section>
-        <section id="contenedorProductos"></section>
+        <h2 class="tituloNuestrosServicios">Nuestros servicios</h2>
+        <section class="contenedorProductos" id="contenedorProductos"></section>
+        <section>
+            <div class="offcanvas offcanvas-end canvasCarrito" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header mt-4 px-4">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">CARRITO DE COMPRAS 😎😉</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body carritoCanvasCuerpo" id="contenedorCarritoCanvas">
+                    <img class="astronautaCarrito" src="./imagenes/astronauta.jpg" alt="Astronauta aburrido">
+                    <p>El carrito esta vacio!</p>
+                    <button id="vaciarCarrito"> vaciar el carrito</button>
+                </div>
+            </div>
+        </section>
 
         
 

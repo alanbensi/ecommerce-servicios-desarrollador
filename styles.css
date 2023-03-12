@@ -3,9 +3,29 @@
 /* font-family: 'Montserrat',
 sans-serif; */
 
+.carritoCanvasCuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-.prueba {
-    background-color: green;
+.carritoCanvasCuerpo p {
+    font-size: 28px;
+}
+
+.canvasCarrito {
+    background-color: #623a7e;
+}
+
+.astronautaCarrito {
+    width: 10rem;
+}
+
+.pruebaCarrito {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
 }
 
 
